@@ -1,27 +1,10 @@
-﻿var number1 = 50;
-var number2 = 10;
-
-//==
-//!=
-//<
-//>
-//<=
-//>=
-
-var Name = "Marcin";
-var age = 46;
-
-
-// && oznacza "i"
-// || oznacza "lub"
-
-
-if (Name == "Marcin" || age < 50) 
-{
-    Console.WriteLine("JESTEM Marcinem lub osobą przed 50");
-}
-else
-
-{
-    Console.WriteLine("JESTEM kims innym");
-}
+﻿int[] grades = new int[5];
+string[] daysofweeks = new string[7];
+daysofweeks[0] = "poniedziałek";
+daysofweeks[1] = "wtorek";
+daysofweeks[2] = "środa";
+daysofweeks[3] = "czwartek";
+daysofweeks[4] = "piątek";
+daysofweeks[5] = "sobota";
+daysofweeks[6] = "niedziela";
+Console.WriteLine(daysofweeks[5]);
